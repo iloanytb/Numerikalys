@@ -1,0 +1,36 @@
+.tittle{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(196,232,246);
+    color: rgb(30,150,100);
+    font-family: "Teko",sans-serif;
+    font-size: 20px;
+}
+#ALL{
+    display: flex;
+    flex-direction: row;
+}
+#BODY{
+    border-left: 3px solid rgb(30,150,100);
+    /*border: 1px solid rgb(30,150,100);*/
+    display: flex;
+    flex-direction: column;
+    float: center;
+ /*  align-items: center; */
+    /*height: 500px;*/
+}
+#menuL{
+    /*background-color: rgb(196,232,246);
+   /* border: 1px solid rgb(30,150,100);*/
+   /*border-right: 3px solid rgb(30,150,100);*/
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: space-around;
+ /*  align-items: center; */
+    height: 500px;
+    width: 200px;
+    text-align: left;
+}
